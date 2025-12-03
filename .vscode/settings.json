@@ -1,0 +1,9 @@
+{
+  "deno.enable": true,
+  "github.copilot.enable": {
+    "typescript": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "redking00.vscode-nbts"
+  }
+}
