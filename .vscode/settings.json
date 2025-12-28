@@ -1,9 +1,10 @@
 {
   "deno.enable": true,
+  "deno.env": {
+    "DENO_UNSTABLE_TSGO": "1"
+  },
+  "deno.unstable": ["tsgo"],
   "github.copilot.enable": {
     "typescript": false
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "redking00.vscode-nbts"
   }
 }
